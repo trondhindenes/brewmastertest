@@ -1,0 +1,14 @@
+d:\trond.hindenes\documents\visual studio 2013\Projects\BrewMasterTEst1\BrewMasterTEst1\bin\Debug\BrewMasterTEst1.exe.config
+d:\trond.hindenes\documents\visual studio 2013\Projects\BrewMasterTEst1\BrewMasterTEst1\bin\Debug\BrewMasterTEst1.exe
+d:\trond.hindenes\documents\visual studio 2013\Projects\BrewMasterTEst1\BrewMasterTEst1\bin\Debug\BrewMasterTEst1.pdb
+d:\trond.hindenes\documents\visual studio 2013\Projects\BrewMasterTEst1\BrewMasterTEst1\bin\Debug\Brewmaster.TemplateSDK.Contracts.dll
+d:\trond.hindenes\documents\visual studio 2013\Projects\BrewMasterTEst1\BrewMasterTEst1\bin\Debug\DotLiquid.dll
+d:\trond.hindenes\documents\visual studio 2013\Projects\BrewMasterTEst1\BrewMasterTEst1\bin\Debug\JetBrains.Annotations.dll
+d:\trond.hindenes\documents\visual studio 2013\Projects\BrewMasterTEst1\BrewMasterTEst1\bin\Debug\Newtonsoft.Json.dll
+d:\trond.hindenes\documents\visual studio 2013\Projects\BrewMasterTEst1\BrewMasterTEst1\bin\Debug\Brewmaster.TemplateSDK.Contracts.pdb
+d:\trond.hindenes\documents\visual studio 2013\Projects\BrewMasterTEst1\BrewMasterTEst1\bin\Debug\JetBrains.Annotations.xml
+d:\trond.hindenes\documents\visual studio 2013\Projects\BrewMasterTEst1\BrewMasterTEst1\bin\Debug\Newtonsoft.Json.xml
+d:\trond.hindenes\documents\visual studio 2013\Projects\BrewMasterTEst1\BrewMasterTEst1\bin\Debug\it\DotLiquid.resources.dll
+d:\trond.hindenes\documents\visual studio 2013\Projects\BrewMasterTEst1\BrewMasterTEst1\obj\Debug\BrewMasterTEst1.csprojResolveAssemblyReference.cache
+d:\trond.hindenes\documents\visual studio 2013\Projects\BrewMasterTEst1\BrewMasterTEst1\obj\Debug\BrewMasterTEst1.exe
+d:\trond.hindenes\documents\visual studio 2013\Projects\BrewMasterTEst1\BrewMasterTEst1\obj\Debug\BrewMasterTEst1.pdb

@@ -1,0 +1,60 @@
+{
+  "Name": "Brewmaster.DemoTemplate",
+  "Description": " This is a demo template.",
+  "Parameters": [
+    {
+      "Name": "Region",
+      "Type": "String",
+      "TypeHint": "AzureRegionName",
+      "Description": "Name of Azure region."
+    },
+    {
+      "Name": "VmName",
+      "Type": "String",
+      "TypeHint": "VmName",
+      "Description": "Name of the VM"
+    }
+  ],
+  "Network": {
+    "DnsServers": [],
+    "LocalSites": [],
+    "VirtualSites": [],
+    "ReservedIPs": []
+  },
+  "AffinityGroup": {},
+  "StorageAccounts": [],
+  "CloudServices": [
+    {
+      "Name": "{{VmName}}",
+      "Description": "Brewmaster ARR Cloud Service",
+      "Deployment": {
+        "VirtualMachines": [
+          {
+            "Name": "{{VmName}}",
+            "RoleSize": "{{Medium}}",
+            "AvailabilitySet": "arr-avset",
+            "OsVirtualDisk": {
+              "OsType": "Windows",
+              "OsImageName": "a699494373c04fc0bc8f2bb1389d6106__Windows-Server-2012-R2-*"
+            },
+            "WindowsConfigSet": {
+              "LocalAdminCredentialId": "vmadmin",
+              "EnableAutomaticUpdates": false,
+              "ChangePasswordAtLogon": false,
+              "DisableRdp": false
+            },
+            "ConfigSets": [
+              "ArrServer"
+            ]
+          }
+        ],
+        "DiskStorageAccount": "{{DiskStore}}",
+        "RemoveUnreferencedVms": false
+      }
+    }
+  ],
+  "DeploymentGroups": [],
+  "Credentials": [],
+  "ConfigSets": [],
+  "Configurations": []
+}
